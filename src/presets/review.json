@@ -1,0 +1,30 @@
+{
+  "name": "review",
+  "description": "Multi-perspective code review",
+  "rounds": 2,
+  "agents": [
+    {
+      "name": "reviewer",
+      "type": "claude-subagent",
+      "role": "Architecture and design review",
+      "required": true,
+      "priority": 1
+    },
+    {
+      "name": "codex-soloist",
+      "type": "codex-bridge",
+      "role": "Security, correctness, and bug detection",
+      "required": false,
+      "priority": 2
+    },
+    {
+      "name": "gemini-soloist",
+      "type": "gemini-bridge",
+      "role": "Readability, alternatives, and UX review",
+      "required": false,
+      "priority": 3
+    }
+  ],
+  "synthesis": "rule-merge",
+  "minBudget": 1
+}
