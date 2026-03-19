@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "description": "Multi-model agent orchestration for Claude Code — Codex and Gemini as soloists",
   "type": "module",
+  "files": [
+    "dist/",
+    "agents/",
+    "skill/",
+    "src/presets/"
+  ],
   "bin": {
     "claude-maestro": "./dist/cli.js"
   },
