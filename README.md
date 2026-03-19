@@ -1,5 +1,7 @@
 # claude-maestro
 
+**English** | [한국어](README.ko.md)
+
 Multi-model agent orchestration for Claude Code. Claude Code acts as the Lead (Maestro), orchestrating Codex CLI and Gemini CLI as soloists through round-based collaboration.
 
 ## Why
@@ -88,7 +90,7 @@ claude-maestro --help                     # Show help
 ## Development
 
 ```bash
-git clone https://github.com/mindevolution/claude-maestro.git
+git clone https://github.com/mindev188/claude-maestro.git
 cd claude-maestro
 npm install
 npm run build    # TypeScript compilation
