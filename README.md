@@ -38,8 +38,8 @@ Missing CLIs gracefully degrade — perspective tasks fall back to Claude subage
 ## Installation
 
 ```bash
-# Install the package
-npm install -g claude-maestro
+# Install from GitHub
+npm install -g github:mindev188/claude-maestro
 
 # Install the Claude Code skill
 claude-maestro install-skill
