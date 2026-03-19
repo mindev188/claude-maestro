@@ -38,8 +38,12 @@ CLI가 없으면 자동으로 폴백합니다 — 관점 작업은 Claude subage
 ## 설치
 
 ```bash
-# GitHub에서 설치
+# 방법 A: GitHub에서 설치
 npm install -g github:mindev188/claude-maestro
+
+# 방법 B: 소스에서 설치
+git clone https://github.com/mindev188/claude-maestro.git
+cd claude-maestro && npm install && npm run build && npm install -g .
 
 # Claude Code 스킬 설치
 claude-maestro install-skill
